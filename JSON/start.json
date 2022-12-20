@@ -1,0 +1,50 @@
+<!--  JSON SYNTAX  [] {} , :  --> 
+<!--  API Sprache  --> 
+
+{
+	"name":"Text",	                #string
+	"alter": 16,				            #integer
+	"kennt json": true/false		    #boolean
+}
+
+<!--  Array [ ]  -->  
+<!--  mehrere json datensätze in einer datei  --> 
+
+[
+{
+	"name":"Volles-kaennchen",	
+	"alter": 69,				
+	"kennt json": true			
+},
+{
+	"name":"Johanna",	
+	"alter": 10,				
+	"kennt json": false			
+}
+ ]
+
+ <!--  Array mit inneren JSON Datensätzen   --> 
+
+ [
+    {
+        "name":"Volles-kaennchen",	
+        "alter": 69,				
+        "adresse": {
+                    "straße": "Meer",
+                    "plz": "99666"
+                }			
+    }
+     ]
+
+<!--  Array im Array  --> 
+    [{
+            "name":"Volles-kaennchen",	
+            "alter": 69,
+            "hobbies": ["Bierpong","Ski","Yoga"],			
+            "adresse": {
+                "straße": "Meer",
+                "plz": "99666"
+            }			
+    }]
+
+
