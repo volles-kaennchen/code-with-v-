@@ -1,0 +1,154 @@
+/* Allgemeines Styling */
+
+/* Normalisierung bestimmter Elemente */
+
+    * { margin: 0;
+        padding: 0;
+        border: none;
+        font-family:  Helvetica, Arial, Droid-sans, sans-serif;
+        font-size: 16px;
+        color: #333;}
+
+body { background: #73a4e0 url('../images/base_xs.jpg') no-repeat top center fixed;
+      background-size: cover;}                           /* Hintergrund passt sich der Größe an */
+
+/* Standard-Styling für den Wrapper und den Body auf großen Geräten */
+@media screen and (min-width: 1024px) {
+    body{background-image: url('../images/base_xl.jpg');
+    }
+    .wrapper {width: 996px;
+            margin: 0 auto;}}     
+
+/* Hauptnavigation */
+
+#mainnav {   width: 100%; 
+            background: rgba(66, 88, 126, .7);
+            border-bottom: 1px solid #d9fffc;}
+
+/* div wird zur Flexbox */
+#mainnav > .wrapper {display: flex;
+                    justify-content: space-between;}
+
+
+#mainnav ul { list-style: none;
+                margin: 20px 0 20px 10px;
+                display: none;} /* setzen, wenn hamburger menu fertig ist + @media regel*/
+
+        /* Kinder der div formatieren */
+#mainnav ul:nth-child(2) {font-weight: bold;}
+
+#mainnav ul > li {margin-bottom: 15px;}
+
+#mainnav a {text-decoration: 11px;
+            padding: 11px 5px 8px;
+            font-size: 0.9rem;}
+
+        /* Kinder der div als Links hinterlegen */
+#mainnav a:link, 
+#mainnav a:visited,
+#mainnav a:active{ color: #fff;} 
+
+        /* Pseudozustand und Klasse */
+#mainnav a:hover,
+#mainnav a.current{background-color: #fff;
+                    color: #333;}
+
+@media screen and (min-width: 1024px){
+    #mainnav ul {display: flex;}
+    #mainnav ul > li{ margin: 0px;}
+    #toggle_nav {display:none}}
+    
+
+/* LOGO IM HAUPTNAVIGATIONSBEREICH */
+#branding {background: url('../images/ardlogo_weiss.png') no-repeat 0 0;
+            width: 70px;
+            height: 35px;
+            text-indent: -999999px;}
+
+        /* Logo Link defineren */           
+#branding a {display: block;
+            width: 70px;
+            height: 35px;
+            padding: 0;}
+
+        /* Über das Logo fahren ohne die weiße Box zu sehen */
+#branding a:hover {background-color: transparent;}
+
+        /* Hamburger Menu definieren */ 
+#toggle_nav{width: 50px;
+            height: 45px;
+            margin-left: 5px;}
+
+/* SEITEN KOPFBEREICH */
+#main_head {display: flex;
+    justify-content: space-between;}
+
+#main_logo {display: none;}
+
+/* Suchformular */
+#main_head form{margin-top: 20px;}
+#main_head input{width: 260px; 
+                height: 36px; 
+                padding: 3px;
+                padding-right: 35px; /* Suchttext geht nicht über die Lupe */
+                font-size: 0.9rem; 
+                background: #fff url('../images/lens.png') no-repeat center right;
+                background-size: 30px 30px;}
+
+@media screen and (min-width: 1024px) {
+    #main_logo {display:block}
+}
+
+/* HAUPT-INHALTSBEREICH */
+.main_content {background: #fff;
+padding: 10px;
+margin-top: 10px;
+}
+
+.main_content h2{font-size: 2rem; margin-bottom: 20px;}
+h4{margin: 10px 0;}
+.main_content header > h2{ font-family: "Times New Roman", serif;}
+
+.main_content img{width: 100%;}
+
+p {margin: 15px 0;}
+
+/* Absätze unterstrichen - ohne hr */
+p.teaser {border-top: 1px solid #42587e;
+padding: 10px 0; margin: 0;}
+
+p.teaser:last-child{ border-bottom: 1px solid #42587e;}
+
+.row {width: 100%;}
+
+@media screen and (min-width: 1024px) {
+    .row{display: flex; gap: 10px;}
+    .col {width: 100%; flex: 1;}}
+
+/* Seiten Footer */
+footer{background-color: #001a4b;
+        margin-top: 20px;
+        padding: 30px 10px 12px;}
+
+/* Typografie */
+footer h4,
+footer p,
+footer a{color: #fff;
+        margin-top: 30px;}
+
+/* Navigation im Footer */
+footer nav ul > li { list-style: none;
+margin-top: 15px;}
+
+footer a {text-decoration: none;}
+
+footer .imprint {margin-top: 30px; height: 30px;}
+
+@media screen and (min-width: 1024px) {
+    footer nav ul > li {margin-top: 5px;}
+    footer .imprint {display: flex;}
+    footer .imprint > li { margin-right: 10px;}
+    footer section:last-child{display: flex; justify-content: space-between;}
+
+
+}
