@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(153, 153, 153);}
+
+.box{
+    background-color: #c0c0c0; 
+    width: 800px; 
+    height: 800px; 
+    margin: auto;}
+
+.content_ {
+    margin-top: 172px; 
+    text-align: center; 
+    background-color: #fff; 
+    padding: 13px;}
+
+h1,
+h2,
+p{text-align: center; 
+    color: #fff;
+    font-family: 'New Walt Disney Font', sans-serif;}
+
+.wrapper_1{
+    width: 800px; 
+    height: 400px;
+        display: flex; 
+        flex-flow:row; 
+        justify-content: baseline; }
+
+.wrapper_2{
+    width: 800px; 
+    height: 400px;
+        display: flex; 
+        flex-flow:row; 
+        align-items: baseline;}
+
+.palette_1{display: flex; flex-flow:row; justify-content: space-evenly; margin: auto;
+    border: 2px solid rgb(129, 129, 129); background-color: #fff;}
+
+.palette_2{display: flex; flex-flow:row; justify-content: space-evenly; margin: auto;
+    border: 2px solid rgb(129, 129, 129); background-color: #fff;}
+
+    .button_1{background-color: #f5bb7b; width: 100px; margin-top: 4px;}
+    .button_2{background-color: #fddbb6; width: 100px; margin-top: 4px;}
+    .button_3{background-color: #b48b59; width: 100px; margin-top: 4px;}
+    .button_4{background-color: #6f99a9; width: 100px; margin-top: 4px;}
+    .button_5{background-color: #86b8d1; width: 100px; margin-top: 4px;}
+    .button_6{background-color: #aca1a7; width: 100px; margin-top: 4px;}
+    .button_7{background-color: #dfd9cb; width: 100px; margin-top: 4px;}
+    .button_8{background-color: #e1ad71; width: 100px; margin-top: 4px;}
+    .button_9{background-color: #da8755; width: 100px; margin-top: 4px;}
+    .button_10{background-color: #151110; width: 100px; margin-top: 4px;}
+    .button_11{background-color: #cd493c; width: 100px; margin-top: 4px;}
+    .button_12{background-color: #352f23; width: 100px; margin-top: 4px;}
+
+    .button_13{background-color:#2c4588; width: 100px; margin-top: 4px;}
+    .button_14{background-color:#74242f; width: 100px; margin-top: 4px;}
+    .button_15{background-color:#309e85; width: 100px; margin-top: 4px;}
+    .button_16{background-color:#bbd782; width: 100px; margin-top: 4px;}
+    .button_17{background-color:#fdf18d; width: 100px; margin-top: 4px;}
+    .button_18{background-color:#f2ebb4; width: 100px; margin-top: 4px;}
+    .button_19{background-color:#fad3b6; width: 100px; margin-top: 4px;}
+    .button_20{background-color:#000000; width: 100px; margin-top: 4px;}
+    .button_21{background-color:#ec849d; width: 100px; margin-top: 4px;}
+    .button_22{background-color:#140100; width: 100px; margin-top: 4px;}
+
+    .button_23{background-color:#a4783b; width: 100px; margin-top: 4px;}
+    .button_24{background-color:#f7e5d1; width: 100px; margin-top: 4px;}
+    .button_25{background-color:#8d7e43; width: 100px; margin-top: 4px;}
+    .button_26{background-color:#e295a7; width: 100px; margin-top: 4px;}
+    .button_27{background-color:#4b3925; width: 100px; margin-top: 4px;}
+    .button_28{background-color:#ebd276; width: 100px; margin-top: 4px;}
+    .button_29{background-color:#ebda88; width: 100px; margin-top: 4px;}
+    .button_30{background-color:#e9c354; width: 100px; margin-top: 4px;}
+    .button_31{background-color:#fae39d; width: 100px; margin-top: 4px;}
+
+
+    .button_34{background-color:#000000; width: 100px; margin-top: 4px;}
+    .button_35{background-color:#7daec9; width: 100px; margin-top: 4px;}
+    .button_36{background-color:#ffffff; width: 100px; margin-top: 4px;}
+    .button_37{background-color:#abc2d3; width: 100px; margin-top: 4px;}
+    .button_38{background-color:#6392af; width: 100px; margin-top: 4px;}
+    .button_39{background-color:#5f99b7; width: 100px; margin-top: 4px;}
+    .button_40{background-color:#9dbbcb; width: 100px; margin-top: 4px;}       
+    .button_42{background-color:#eed97e; width: 100px; margin-top: 4px;}
+    .button_43{background-color:#9b673f; width: 100px; margin-top: 4px;}
+    .button_44{background-color:#5585c6; width: 100px; margin-top: 4px;}
+    .button_45{background-color:#cf8481; width: 100px; margin-top: 4px;}
+    .button_46{background-color:#ac8589; width: 100px; margin-top: 4px;}
+    .button_47{background-color:#dfbda5; width: 100px; margin-top: 4px;}
+
+    .button_48{background-color:#e9eef1; width: 100px; margin-top: 4px;}
+    .button_49{background-color:#f7f6fc; width: 100px; margin-top: 4px;}
+    .button_50{background-color:#f5b3cf; width: 100px; margin-top: 4px;}
+    .button_51{background-color:#e34f8b; width: 100px; margin-top: 4px;}
+    .button_52{background-color:#f7cce0; width: 100px; margin-top: 4px;}        
+    .button_53{background-color:#f38dbd; width: 100px; margin-top: 4px;}
+    .button_54{background-color:#ecad2c; width: 100px; margin-top: 4px;}
+    .button_55{background-color:#fee1dd; width: 100px; margin-top: 4px;}
+    .button_56{background-color:#4a4379; width: 100px; margin-top: 4px;}
+    .button_57{background-color:#ec6c85; width: 100px; margin-top: 4px;}
+    .button_58{background-color:#bf7a6b; width: 100px; margin-top: 4px;}
+    .button_59{background-color:#fad23d; width: 100px; margin-top: 4px;}
+
+    .button_60{background-color:#5da5a2; width: 100px; margin-top: 4px;}
+    .button_61{background-color:#7cbca1; width: 100px; margin-top: 4px;}
+    .button_62{background-color:#64a0a8; width: 100px; margin-top: 4px;}
+    .button_63{background-color:#802e06; width: 100px; margin-top: 4px;}
+    .button_64{background-color:#e36f24; width: 100px; margin-top: 4px;}
+    .button_65{background-color:#6151d5; width: 100px; margin-top: 4px;}
+    .button_66{background-color:#5da3a3; width: 100px; margin-top: 4px;}
+    .button_67{background-color:#030303; width: 100px; margin-top: 4px;}
+    .button_68{background-color:#b14d3d; width: 100px; margin-top: 4px;}
+    .button_69{background-color:#87100c; width: 100px; margin-top: 4px;}
+    .button_70{background-color:#2f191b; width: 100px; margin-top: 4px;}
+    .button_71{background-color:#773f40; width: 100px; margin-top: 4px;}
+    .button_72{background-color:#050304; width: 100px; margin-top: 4px;}
+
+    .button_73{background-color:#aea0ba; width: 100px; margin-top: 4px;}
+    .button_74{background-color:#479b6a; width: 100px; margin-top: 4px;}
+    .button_75{background-color:#8fd191; width: 100px; margin-top: 4px;}
+    .button_76{background-color:#c8f0d6; width: 100px; margin-top: 4px;}   
+    .button_77{background-color:#ca2310; width: 100px; margin-top: 4px;}
+    .button_78{background-color:#f2be85; width: 100px; margin-top: 4px;}
+    .button_79{background-color:#5d889b; width: 100px; margin-top: 4px;}
+    .button_80{background-color:#de2312; width: 100px; margin-top: 4px;}
+    .button_81{background-color:#dbded3; width: 100px; margin-top: 4px;}
